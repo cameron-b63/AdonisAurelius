@@ -9,7 +9,7 @@ export default function Button({ label, theme }) {
             >
                 <Pressable
                     style={[styles.button, { backgroundColor: "#81937B" }]}
-                    onPress={() => alert('You pressed a button.')}
+                    onPress={() => alert('This button will lead to the full text... eventually.')}
                 >
                     <FontAwesome
                         name="book"
@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
         padding: 3,
     },
     button: {
-        borderRadius: 6,
+        borderRadius: 18,
         width: '100%',
         height: '100%',
         alignItems: 'center',
